@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AAVAAZ - Join the Watchlist</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+  <nav>
+    <img src="images/logo.png" alt="AAVAAZ Logo" height="40" />
+  </nav>
+
+  <section class="hero">
+  <div class="hero-content">
+    <h1>AAVAAZ</h1>
+    <p>The Future of Multilingual Voice Intelligence</p>
+    <p class="meaning">आवाज़ || AH-VAAZ<br><strong>Meaning:</strong> VOICE</p>
+    <button class="btn" onclick="scrollToForm()">Join Watchlist</button>
+  </div>
+</section>
+
+
+  <section id="features" class="features-section">
+    <h2>Powerful Features Coming Soon</h2>
+    <p>Get ready for the most comprehensive waitlist management platform</p>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon" style="background-color: #678DFF;">
+          <img src="images/icon-analytics.png" alt="Analytics Icon">
+        </div>
+        <h3>Real-Time Analytics</h3>
+        <p>Monitor signups, engagement, and conversion metrics in real-time</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon" style="background-color: #D87CE9;">
+          <img src="images/icon-leaderboard.png" alt="Leaderboard Icon">
+        </div>
+        <h3>Referral Leaderboard</h3>
+        <p>Gamify your waitlist with competitive referral tracking and rewards</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon" style="background-color: #45EBA5;">
+          <img src="images/icon-segmentation.png" alt="Segmentation Icon">
+        </div>
+        <h3>Smart User Segmentation</h3>
+        <p>Automatically categorize users based on behavior and preferences</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="watchlist-form">
+    <div class="form-wrapper">
+      <div class="form-text">
+        <h2>Talk to us</h2>
+        <p>
+          To build the most usable and clinically relevant technology, we place immense value in elevating user voices as we create.
+          If you are a healthcare provider or hospital system looking to learn more about our solution, or simply a fellow advocate for our mission interested in sharing perspectives, we would love to hear from you.
+        </p>
+      </div>
+
+      <form id="joinForm">
+        <input type="text" id="fullname" name="name" placeholder="Full Name" required />
+        <input type="email" id="email" name="email" placeholder="Email Address" required />
+        <select id="interest" name="interested" required>
+          <option value="">Why are you interested?</option>
+          <option value="Curiosity">Curiosity</option>
+          <option value="Student">Student</option>
+          <option value="Tech Enthusiast">Tech Enthusiast</option>
+        </select>
+        <input type="text" id="referral" name="referral" placeholder="Referral Code (Optional)" />
+        <button type="submit">Join Now</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3 class="footer-logo">A A V A A Z</h3>
+        <p class="footer-description">
+          Aavaaz blends curated experiences with deep technical excellence to bring the global voice to life.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Healthcare</a></li>
+          <li><a href="#">International</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
